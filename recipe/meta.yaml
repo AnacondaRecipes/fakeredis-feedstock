@@ -37,9 +37,11 @@ about:
   license_file: LICENSE
   license: BSD-3-Clause
   license_family: BSD
-  summary: A cross-platform clipboard module for Python. (only handles plain text for now)
+  summary: Fake implementation of redis API (redis-py) for testing purposes.
   description: |
-    Pyperclip is a cross-platform Python module for copy and paste clipboard functions.
+    FakeRedis is a pure-Python implementation of the Redis key-value store.
+    It enables running tests requiring redis server without an actual server.
+    It provides enhanced versions of the redis-py Python bindings for Redis.
   dev_url: https://github.com/cunla/fakeredis-py
   doc_url: https://fakeredis.readthedocs.io
 
