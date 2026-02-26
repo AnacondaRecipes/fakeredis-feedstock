@@ -25,10 +25,20 @@ requirements:
     - typing-extensions >=4.7,<5
 
 test:
+  source_files:
+    - pyproject.toml
+    - test
   requires:
     - pip
+    - pytest
+    - pytest-asyncio
+    - pytest-mock
+    - pytest-html
+    - pytest-timeout
+    - hypothesis
   commands:
     - pip check
+    - pytest -v
   imports:
     - fakeredis
 
