@@ -22,7 +22,7 @@ requirements:
     - python
     - redis-py >=4.3
     - sortedcontainers >=2.4.0,<3
-    - typing-extensions >=4.7,<5
+    - typing-extensions >=4.7,<5  # [py<311]
 
 test:
   requires:
